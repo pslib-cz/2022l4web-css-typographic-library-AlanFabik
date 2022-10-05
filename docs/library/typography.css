@@ -42,18 +42,44 @@ h6{
 /* TEXT */
 p{
     font-weight: 400;
+    margin: 1em;
 }
 
 a{
     text-decoration: none;
-    color: darkgreen;
+    color: black;
 }
 
 a:hover{
-    text-decoration: underline;
+    color: coral;
     transition: 0.4s;
 }
 
 b{
     font-weight: 700;
 }
+
+/* PHOTOS */
+
+
+img {
+    border-radius: 1.5em;
+}
+
+/* BUTTONS */
+button{
+    border-radius: 2em;
+    padding: 1em 3em;
+    background-color: coral;
+    color: white;
+    border: 0px;
+    font-size: 1em;
+}
+
+button:hover{
+    background-color: tomato;
+    cursor: pointer;    
+}
+/* LISTS */
+
+/* LISTS */
