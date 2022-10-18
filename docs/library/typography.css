@@ -42,7 +42,7 @@ h6{
 /* TEXT */
 p{
     font-weight: 400;
-    margin: 1em;
+    padding: 1em;
 }
 
 a{
@@ -67,7 +67,7 @@ img {
 }
 
 /* BUTTONS */
-button{
+/*button{
     border-radius: 2em;
     padding: 1em 3em;
     background-color: coral;
