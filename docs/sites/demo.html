@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Typographic library - Demo site</title>
-    <link rel="stylesheet" href="library/typography.css">
-    <link rel="stylesheet" href="css/demosite.css">
+    <link rel="stylesheet" href="../library/utopia.css">
+    <link rel="stylesheet" href="../css/demosite.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="logo">
-                <a href="#">Nazev.css</a>
+                <a href="../index.html">utopia</a>
             </div>
             <ul id="nav-menu">
-                <li><a>Headings</a></li>
-                <li><a>Text</a></li>
-                <li><a>Photos</a></li>
-                <li><a>Buttons</a></li>
-                <li><a>Lists</a></li>
-                <li><a>Tables</a></li>
+                <li><a href="#headings">Headings</a></li>
+                <li><a href="#text">Text</a></li>
+                <li><a href="#photo">Photos</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#tables">Tables</a></li>
             </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
 
     <main>
         <div class="banner">
         </div>
-        <section class="headings">
+        <section class="headings" id="headings">
         <h2>Headings</h2>
             <h1>This is h1</h1>
             <h2>This is h2</h2>
@@ -37,14 +40,14 @@
             <h6>This is h6</h6>
         </section>
 
-        <section class="text">
+        <section class="text" id="text">
             <h2>Text</h2>
             <p>
                 This is a standart paragraph. In the text you can use <b>bolt effect</b>.
             </p>
         </section>
 
-        <section class="photo">
+        <section class="photo" id="photo">
             <h2>Photos</h2>
             <figure class="photo_group">
                 <a href="./photos/speed-1.jpg">
@@ -55,14 +58,14 @@
             
         </section>
 
-        <section class="buttons">
+        <section class="buttons" id="buttons">
             <h2>Buttons</h2>
             <button>
                 test
             </button>
         </section>
 
-        <section class="lists">
+        <section class="lists" id="lists">
             <h2>Lists</h2>
             <div>
                 <h3>Ordered list</h3>
@@ -82,7 +85,7 @@
             </div>
         </section>
 
-        <tables class="tables">
+        <tables class="tables" id="tables">
             <h2>Tables</h2>
             <table>
                 <tr>
