@@ -60,14 +60,23 @@ b{
 }
 
 /* PHOTOS */
-
+.gallery {
+    text-align: center;
+    padding: 1em;
+}
 
 img {
-    border-radius: 1.5em;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+img:hover{
+    background-color: black;
 }
 
 /* BUTTONS */
-/*button{
+button{
     border-radius: 2em;
     padding: 1em 3em;
     background-color: coral;
@@ -80,6 +89,9 @@ button:hover{
     background-color: tomato;
     cursor: pointer;    
 }
-/* LISTS */
+
 
 /* LISTS */
+
+
+/* TABLES */
