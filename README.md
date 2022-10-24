@@ -3,7 +3,7 @@
 ## Description
 Utopia.css is a free typography library, which you can implement to your HTML code. Simply download the file and link via stylesheet to your code. The CSS file is fully responsive and works on every browser. Enjoy!
 ## Demo site
-Link to **[demo](https://github.com/pslib-cz/2022l4web-css-typographic-library-AlanFabik)** site for preview.
+Link to **[demo](https://htmlpreview.github.io/?https://github.com/pslib-cz/2022l4web-css-typographic-library-AlanFabik/blob/master/docs/index.html)** site for preview.
 ## Signpost
 1. [Download](#Download)
 2. [Font](#Font)
