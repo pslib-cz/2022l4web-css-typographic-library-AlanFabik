@@ -15,7 +15,7 @@ Link to **[demo](https://github.com/pslib-cz/2022l4web-css-typographic-library-A
 8. [Lists](#Lists)
 9. [Tables](#Tables)
 ## Download
-1. Download utopia.css **[docs/library](https://github.com/pslib-cz/2022l4web-css-typographic-library-AlanFabik/tree/master/docs/libraryd)**
+1. Download utopia.css **[docs/library](https://github.com/pslib-cz/2022l4web-css-typographic-library-AlanFabik/tree/master/docs/library)**
 ## Usage
 ...
 ## Components
