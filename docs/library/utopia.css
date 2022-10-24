@@ -7,7 +7,12 @@ body{
 }
 
 /*EDIT COLORS HERE*/
-
+:root {
+    --white: #fff;
+    --coral: #ff7f50;
+    --black: #000;
+    --grey: #c2c2c2;
+}
 
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6 {
@@ -48,11 +53,11 @@ p{
 
 a{
     text-decoration: none;
-    color: coral;
+    color: var(--coral);
 }
 
 a:hover{
-    color: coral;
+    color: var(--coral);
     transition: 0.4s;
 }
 
@@ -84,7 +89,7 @@ a figcaption {
 
 
 img:hover{
-    background-color: black;
+    background-color: var(--black);
 }
 
 @media screen and (max-width:758px){
@@ -99,16 +104,16 @@ button{
     text-align: center;
     background: transparent;
     font-size: 20px;
-    border: 2px solid #000;
+    border: 2px solid var(--black);
     padding: 15px 60px;
     padding-left: 2em;
     padding-right: 2em;
 }
 
 button:hover{
-    border: 2px solid coral;
+    border: 2px solid var(--coral);
     transition: 0.4s;
-    color: coral;
+    color: var(--coral);
     cursor: pointer;    
 }
 
@@ -117,9 +122,9 @@ button:hover{
     text-align: center;
     background: transparent;
     font-size: 20px;
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     padding: 15px 60px;
-    color: white;
+    color: var(--white);
 }
 
 .black{
@@ -127,22 +132,68 @@ button:hover{
     text-align: center;
     background: transparent;
     font-size: 20px;
-    border: 2px solid #000;
+    border: 2px solid var(--black);
     padding: 15px 60px;
 }
 
 
 
 /* LISTS */
-ol{
-    background-color: black;
-    color: white;
+.num{
+    background-color: var(--black);
+    color: var(--white);
     padding: 2em 4em;
     border-radius: 2em;
 }
 
-ol li{
+.num li{
     padding: 0.5em 0;
 }
 
+.point{
+    list-style: circle inside;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 2em 4em;
+    border-radius: 2em;
+}
+
+.point li{
+    padding: 0.5em 0;
+}
+
+.grey{
+    background-color: var(--grey);
+    color: var(--black);
+}
+
 /* TABLES */
+table, th, td {
+    padding: 1em;
+    margin: 2em;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th{
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px var(--black) solid;
+}
+
+td{
+    background-color: var(--grey);
+    color: var(--black);
+    border: 1px grey solid;
+}
+
+@media screen and (max-width:758px){
+    table{
+        width: 300px;
+    }
+}

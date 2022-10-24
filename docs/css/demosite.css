@@ -148,9 +148,14 @@ section{
     padding: 0 1em;
 }
 
-.lists-wrapper-item{
-    
+footer{
+    background-color: black;
+    margin-top: 2em;
+    text-align: center;
+    color: white;
+    padding: 1em 0;
 }
+
 
 @media screen and (max-width:340px) {
     .banner{
@@ -214,7 +219,6 @@ section{
     .buttons-wrapper-item{
         border-radius: 1em;
     }
-    
 }
 
 
