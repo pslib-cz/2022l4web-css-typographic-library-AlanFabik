@@ -47,7 +47,7 @@ There are two types of predefined buttons
 * Black version
 `<button class="black">`
 * White version
-`<button class="black">`
+`<button class="white">`
 ## Lists
 You can also use HTML lists
 * Ordered list
