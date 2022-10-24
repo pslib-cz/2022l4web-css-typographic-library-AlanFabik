@@ -33,27 +33,28 @@
             <div class="banner_content">
                 <div class="banner_content_text">
                     <h1>Typographic library<br>for your next<br>project.</h1>
-                    <a href="https://github.com/pslib-cz/2022l4web-css-typographic-library-AlanFabik">Download library</a>
+                    <a href="https://github.com/pslib-cz/2022l4web-css-typographic-library-AlanFabik" id="headings">Download library</a>
                 </div>
                 <img src="../photos/travis_scott-figure.png">
             </div>
             
         </div>
-        <section class="headings" id="headings">
+        <section class="headings">
         <h2>Headings</h2>
-            <h1>This is h1</h1>
+            <p>Use <code>&#60h1&#62</code>,<code>&#60h2&#62</code>,<code>&#60h3&#62</code>,<code>&#60h4&#62</code>,<code>&#60h5&#62</code>,<code>&#60h6&#62</code> tags for headings.</p>
+            <div class="h1replace">This is h1</div>
             <h2>This is h2</h2>
             <h3>This is h3</h3>
             <h4>This is h4</h4>
-            <h5>This is h5</h5>
+            <h5 id="text">This is h5</h5>
             <h6>This is h6</h6>
         </section>
 
-        <section class="text" id="text">
+        <section class="text">
             <h2>Text</h2>
-            <p>This is a standart paragraph created by p tag.</p>
+            <p id="photo">Use <code>&#60p&#62</code> tag for a standart paragraph.</p>
             <p>
-                In the text you can use <b>bolt effect</b> and <a href="../index.html">hypetext link</a>.
+                In the text you can use <b>bolt effect</b> <code>&#60b&#62</code> and <a href="../index.html">hypetext link </a>  <code>&#60a&#62</code>.
             </p>
             <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia
@@ -61,50 +62,65 @@
             </p>
         </section>
 
-        <section class="photo" id="photo">
+        <section class="photo">
             <h2>Photos</h2>
-            <p>With utopia.css you can easily add style to your picture. Simply
-                add "gallery" class to your image wrapper.
+            <p>To use image template, modify your wrapper as <code>&#60div class="photos"&#62</code>
             </p>
-            <h3>Single photo</h3>
-            <div class="gallery">
+            <div class="photos">
                 <a href="../photos/travis-scott.jpg">
-                    <img src="../photos/travis-scott.jpg" alt="Speed is goat">
+                    <img src="../photos/travis-scott.jpg" alt="Travis Scott concert" id="buttons">
                     <figcaption class="photo_title">Travis Scott Antidone music video</figcaption>    
                 </a>
             </div>
             
         </section>
 
-        <section class="buttons" id="buttons">
+        <section class="buttons">
             <h2>Buttons</h2>
-            <button>
-                test
-            </button>
+            <div class="buttons-wrapper">
+                <div class="buttons-wrapper-item light-background">
+                    <p>Use <code>&#60button class="black"&#62</code><br>tag for black button.</p>
+                    <button class="black">Black</button>
+                </div>
+                <div class="buttons-wrapper-item dark-background">
+                    <p>Use <code>&#60button class="white"&#62</code><br>tag for white button.</p>
+                    <button class="white">White</button>
+                </div>
+            </div>
+            
         </section>
 
         <section class="lists" id="lists">
             <h2>Lists</h2>
-            <div>
-                <h3>Ordered list</h3>
-                <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JAVA</li>
-                </ol>
+            <div class="lists-wrapper">
+                <div class="lists-wrapper-item">
+                    <h3>Ordered list</h3>
+                    <p>Use <code>&#60ol&#62</code> tag for an ordered list.</p>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ol>
+                </div>
+                <div class="lists-wrapper-item">
+                    <h3>Unordered list</h3>
+                    <p>Use <code>&#60ul&#62</code> tag for an unordered list.</p>
+                    <ul>
+                        <li>Text 1</li>
+                        <li>Text 2</li>
+                        <li>Text 3</li>
+                    </ul>
+                </div>
+                
             </div>
-            <div>
-                <h3>Unordered list</h3>
-                <ul>
-                    <li>Text 1</li>
-                    <li>Text 2</li>
-                    <li>Text 3</li>
-                </ul>
-            </div>
+            
+                
+
         </section>
 
         <section class="tables" id="tables">
             <h2>Tables</h2>
+            <p>Use <code>&#60table&#62</code> tag for a standart table.</p>
             <table>
                 <tr>
                     <th>Title</th>

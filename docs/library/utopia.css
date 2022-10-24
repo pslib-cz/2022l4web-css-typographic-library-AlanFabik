@@ -1,12 +1,12 @@
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-/* HTML */
+/* FONT LINK */
 body{
     font-family: 'Bitter', serif;
 }
 
-/*COLORS*/
+/*EDIT COLORS HERE*/
 
 
 /* HEADINGS */
@@ -14,8 +14,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
 }
 
-h1{
+h1, .h1replace{
     font-size: 30px;
+    font-weight: 500;
 }
 
 h2{
@@ -47,7 +48,7 @@ p{
 
 a{
     text-decoration: none;
-    color: black;
+    color: coral;
 }
 
 a:hover{
@@ -60,7 +61,7 @@ b{
 }
 
 /* PHOTOS */
-.gallery {
+.photos {
     text-align: center;
     padding: 1em;
 }
@@ -69,29 +70,79 @@ img {
     width: 100%;
     max-width: 800px;
     height: auto;
+    border-radius: 2em;
 }
+
+a figcaption {
+    visibility: hidden;
+}
+
+.photos:hover figcaption{
+    transition: 0.4s;
+    visibility: visible;
+}
+
 
 img:hover{
     background-color: black;
 }
 
+@media screen and (max-width:758px){
+    img{
+        border-radius: 1em;
+    }
+}
+
 /* BUTTONS */
 button{
-    border-radius: 2em;
-    padding: 1em 3em;
-    background-color: coral;
-    color: white;
-    border: 0px;
-    font-size: 1em;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid #000;
+    padding: 15px 60px;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 button:hover{
-    background-color: tomato;
+    border: 2px solid coral;
+    transition: 0.4s;
+    color: coral;
     cursor: pointer;    
 }
 
+.white{
+    font-family: 'Bitter', serif;
+    text-align: center;
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 15px 60px;
+    color: white;
+}
+
+.black{
+    font-family: 'Bitter', serif;
+    text-align: center;
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid #000;
+    padding: 15px 60px;
+}
+
+
 
 /* LISTS */
+ol{
+    background-color: black;
+    color: white;
+    padding: 2em 4em;
+    border-radius: 2em;
+}
 
+ol li{
+    padding: 0.5em 0;
+}
 
 /* TABLES */
