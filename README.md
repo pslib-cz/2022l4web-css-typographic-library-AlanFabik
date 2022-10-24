@@ -23,6 +23,15 @@ Link to **[demo](https://github.com/pslib-cz/2022l4web-css-typographic-library-A
 ```
 ## Font
 Utopia.css is using linked Google font. You can change the font, simply remove predefined font and paste yours.
+```html
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* FONT LINK */
+body{
+    font-family: 'Bitter', serif;
+}
+```
 ## Colors
 The predefined colors can be changed by `:root` selector.
 ## Heanings
@@ -36,9 +45,11 @@ To use image template, modify your wrapper as `<div class="photos>`
 ## Buttons
 There are two types of predefined buttons
 * Black version
+`<button class="black">`
 * White version
+`<button class="black">`
 ## Lists
-You can also use HTML List
+You can also use HTML lists
 * Ordered list
 ```html
 <ol>
