@@ -19,7 +19,7 @@ Link to **[demo](https://github.com/pslib-cz/2022l4web-css-typographic-library-A
 2. Add CSS file to Visual Studio Code
 3. Link CSS file via stylesheet
 ```html
-<link href="maestro.css" rel="stylesheet">
+<link href="utopia.css" rel="stylesheet">
 ```
 ## Font
 Utopia.css is using linked Google font. You can change the font, simply remove predefined font and paste yours.
