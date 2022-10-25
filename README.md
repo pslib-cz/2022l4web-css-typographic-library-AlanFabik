@@ -51,7 +51,7 @@ There are two types of predefined buttons:
 `<a class="button button-white">`
 ## Lists
 You can also use HTML lists
-* Ordered list
+* Ordered list `<ul class="num">`
 ```html
 <ol>
     <li>HTML</li>
@@ -59,7 +59,7 @@ You can also use HTML lists
     <li>JavaScript</li>
 </ol>
 ```
-* Unordered list
+* Unordered list `<ol class="point">`
 ```html
 <ul>
     <li>Text 1</li>
