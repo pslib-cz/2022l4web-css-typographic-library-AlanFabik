@@ -43,11 +43,12 @@ A standart paragraph is defined by `<p>` tag. There are also:
 ## Photos
 To use image template, modify your wrapper as `<div class="photos>`
 ## Buttons
-There are two types of predefined buttons
+To add a button, add `class="button"` to `<a>` tag or `<button>` tag.
+There are two types of predefined buttons:
 * Black version
-`<button class="black">`
+`<a class="button button-black">`
 * White version
-`<button class="white">`
+`<a class="button button-white">`
 ## Lists
 You can also use HTML lists
 * Ordered list

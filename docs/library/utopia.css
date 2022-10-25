@@ -99,7 +99,7 @@ img:hover{
 }
 
 /* BUTTONS */
-button{
+.button{
     font-family: 'Bitter', serif;
     text-align: center;
     background: transparent;
@@ -108,16 +108,17 @@ button{
     padding: 15px 60px;
     padding-left: 2em;
     padding-right: 2em;
+    color: var(--black);
 }
 
-button:hover{
+.button:hover{
     border: 2px solid var(--coral);
     transition: 0.4s;
     color: var(--coral);
     cursor: pointer;    
 }
 
-.white{
+.button--white{
     font-family: 'Bitter', serif;
     text-align: center;
     background: transparent;
@@ -127,7 +128,7 @@ button:hover{
     color: var(--white);
 }
 
-.black{
+.button--black{
     font-family: 'Bitter', serif;
     text-align: center;
     background: transparent;
